@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0 2% ;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+nav .profile {
+    display: flex;
+    align-items: center;
+}
+header .profile img {
+    width: 40px;
+    height:40px ;
+    border-radius: 50%;
+}
+nav .profile h1 {
+    margin-left: 10px;
+    color: #1b8077;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li  a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #1b8077;
+}
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#1b8077;
+}
+section img {
+    width: 400px;
+    height:400px;
+    border: 2px solid aquamarine ;
+    border-radius: 50%;
+
+}
+.hero .titre {
+    padding-top: 1%;
+    color: white;
+}
+.text {
+    text-align: center;
+    color: #1b8077;
+    padding-top:5%;
+}
+.contenue  {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.contenue p{
+    text-align: center;
+   padding-top: 15%;
+}
+.contenue img {
+border: 10px solid #1b8077; 
+}
+.h1 {
+    text-align: center;
+    color: #1b8077;
+}
+span{
+    border:2px solid #1b8077;
+    background-color:aquamarine ;
+}
+.h2{
+    text-align: center;
+    color: #1b8077;
+}
+.image{
+    display: grid;
+    row-gap: 50px;
+    
+}
+.image img{
+    grid-row-start: 2;
+    grid-row-start: 2;
+    width: 200px;
+    height: 200px;
+
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+}
+.titre3{
+    text-align: center;
+    color: #1b8077;
+}
+.form form{
+    background-color: aquamarine;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 1%;
+}
